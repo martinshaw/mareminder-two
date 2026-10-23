@@ -21,3 +21,18 @@ npm run dev
 ```bash
 npm run build
 ```
+
+Package a local macOS build:
+
+```bash
+npm run dist
+```
+
+## Release
+
+Push a version tag. The release workflow builds an unsigned macOS app and publishes it to GitHub Releases.
+
+```bash
+git tag v0.2.0
+git push origin v0.2.0
+```
